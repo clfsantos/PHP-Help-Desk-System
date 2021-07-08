@@ -1,0 +1,209 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06/11/2015, 15:50:30
+    Author     : cesantos
+*/
+
+/* Elimina a borda azul padrão do Chrome para botões e links */
+a, a:focus, button, button:focus {
+    outline: none !important; 
+}
+
+.hb-erro {
+    color: red;
+}
+
+.bt-form {
+    margin-top: 20px;
+}
+
+.clfs-dm tbody tr td.clfs-left {
+    width: 30%;
+}
+
+.clfs-dm tbody tr td.clfs-right {
+    width: 70%;
+}
+
+.clfs-dm tbody tr td.clfs-fcenter {
+    width: 50%;
+}
+
+.clfs-dm tbody tr td.clfs-fright {
+    width: 20%;
+}
+
+.clfs-rl-primary {
+    color: #2196F3;
+}
+
+.clfs-rl-alert {
+    color: #4CAF50;
+}
+
+.clfs-rl-danger {
+    color: #F44336;
+}
+
+.green-color {
+	color:green;
+}
+
+.red-color {
+	color:red;
+}
+
+td.details-control:before {
+    content: ">";
+    cursor: pointer;
+}
+
+tr.details td.details-control:before {
+    content: "<";
+    font-family: FontAwesome;
+    cursor: pointer;
+}
+
+.teste {
+    background-color: #f6f6f6;
+}
+
+.breadcrumb.fluxo>li+li:before {
+    padding: 0 15px !important;
+}
+
+.breadcrumb.fluxo>.active {
+    color: green;
+}
+
+/* Alterações Bootstrap */
+
+.btn, .btn-sm, .btn-group-sm>.btn {
+    border-radius: 0 !important;
+}
+
+.alert {
+    margin: 0 !important;
+    border-radius: 0 !important;
+}
+
+.form-control {
+    border-radius: 0 !important;
+    border: 1px solid #cccccc !important;
+    font-size: 12px !important;
+    height: 100% !important;
+    padding-left: 4px !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    -webkit-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+}
+
+.form-control:focus {
+    -moz-box-shadow: 0 0 5px 0 #cccccc !important;
+    -webkit-box-shadow: 0 0 5px 0 #cccccc !important;
+    box-shadow: 0 0 5px 0 #cccccc !important;
+}
+
+.form-control-static {
+    padding-top: 0 !important;
+    padding-bottom: 9px !important;
+}
+
+legend {
+    font-size: 14px !important;
+}
+
+.checkbox, .radio {
+    margin-top: 0 !important;
+}
+
+.tbt-panel {
+    border-radius: 0 !important; 
+}
+
+.tbt-panel-heading {
+    border-top-left-radius: 0 !important; 
+    border-top-right-radius: 0 !important; 
+}
+
+.input-group-addon {
+    border-radius: 0 !important; 
+}
+
+/* Alterações JeasyUI */
+/* Para a correção do problema da barra do page down que aparece no navegador */
+.panel.datagrid, .panel-header, .datagrid-wrap, .datagrid-view {
+    width: 100% !important;
+}
+/*
+.panel.datagrid {
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+*/
+.textbox {
+    display: block;
+    border: 1px solid #cccccc !important;
+    height: 31px !important;
+    -moz-border-radius: 0 0 0 0 !important;
+    -webkit-border-radius: 0 0 0 0 !important;
+    border-radius: 0 0 0 0 !important;
+}
+
+.textbox .textbox-text {
+    font-size: 12px !important;
+    -moz-border-radius: 0 0 0 0 !important;
+    -webkit-border-radius: 0 0 0 0 !important;
+    border-radius: 0 0 0 0 !important;
+}
+
+.textbox-focused {
+    -moz-box-shadow: 0 0 5px 0 #cccccc !important;
+    -webkit-box-shadow: 0 0 5px 0 #cccccc !important;
+    box-shadow: 0 0 5px 0 #cccccc !important;
+}
+
+.textbox-invalid {
+    border-color: #ff0000 !important;
+    background-color: #fff3f3;
+    -moz-box-shadow: 0 0 3px 0 #FF0000 !important;
+    -webkit-box-shadow: 0 0 3px 0 #FF0000 !important;
+    box-shadow: 0 0 3px 0 #FF0000 !important;
+}
+
+.textbox-text-readonly {
+    background-color: #eeeeee !important;
+}
+
+.textbox-text-readonly[readonly] {
+    cursor: not-allowed; /* Este cursor é de responsabilidade do Bootstrap */
+}
+
+.textbox-text[disabled] {
+    background-color: #eeeeee !important;
+    cursor: not-allowed; /* Este cursor é de responsabilidade do Bootstrap */
+}
+
+.mw.panel-body {
+    background-color: #f1f4f7 !important;
+}
+
+/* Alterações Painel Adm */
+
+.breadcrumb {
+    margin-top: 10px;
+}
+
+.fa-menu {
+    line-height: 21px !important;
+}
+
+.alert button.close {
+    padding: 10px !important;
+}
